@@ -11,7 +11,7 @@ public class EjercicioArrays : MonoBehaviour
     void Start()
     {
         ExisteLetraEnCadena(nombre, 'x');
-        EscribirCadenaInvertida
+        EscribirCadenaInvertida(nombre);
     }
 
     void Update()
@@ -59,7 +59,7 @@ public class EjercicioArrays : MonoBehaviour
 
     void EscribirCadenaInvertida(string cadena)
     {
-        int length;
+        /*int length;
         length = nombre.Length - 1;
 
         while (length >= 0)
@@ -68,6 +68,6 @@ public class EjercicioArrays : MonoBehaviour
             length--;   
         }
 
-        Debug.Log($"El string invertido es: {invertido}");
+        Debug.Log($"El string invertido es: {invertido}");*/
     }
 }
